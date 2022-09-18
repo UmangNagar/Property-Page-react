@@ -8,7 +8,7 @@ import mail from '../Assets/mail.png'
 export default function Tables() {
   return (
     <><br />
-    <div className="mail"><a href="https://github.com/UmangNagar" target={'_blank'}><img src={mail} alt="" className='mailId' />  </a> <a href='https://github.com/UmangNagar' target={"_blank"}><img src={dp} alt="" className='mailId'/></a></div>
+    <div className="mail"><a href="https://github.com/UmangNagar" target={'_blank'} rel={"noreferrer"}><img src={mail} alt="" className='mailId' />  </a> <a href='https://github.com/UmangNagar' target={"_blank"} rel={"noreferrer"}><img src={dp} alt="" className='mailId'/></a></div>
    
     <h5>Active Deposits <button className='btn-ele btn-sucess'>2</button> <button className='btn-add btn-sucess'>+</button></h5><br />
     <table >
